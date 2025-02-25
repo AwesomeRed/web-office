@@ -1,0 +1,28 @@
+@import url('./base.css');
+
+#app {
+  display: flex;
+  flex: 1;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+a,
+.green {
+  color: #409eff;
+  text-decoration: underline;
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: #57575733;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+}
